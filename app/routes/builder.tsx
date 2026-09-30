@@ -2,7 +2,10 @@ import { useMemo, useState } from "react";
 import { useSearchParams } from "react-router";
 import { Check, RefreshCcw, Shuffle, Sparkles, TriangleAlert, X } from "lucide-react";
 
-import { OutfitFigure } from "~/components/figure/outfit-figure";
+import { OutfitViewer3D } from "~/components/figure3d/outfit-viewer-3d";
+import { StandingManAvatar } from "~/components/figure3d/standing-man-avatar";
+import { AvatarModelSelect } from "~/components/figure3d/avatar-model-select";
+import { DEFAULT_AVATAR_MODEL_ID } from "~/components/figure3d/model-registry";
 import { GarmentGlyph } from "~/components/figure/garment-glyph";
 import { PageIntro } from "~/components/section-heading";
 import { Swatch, SwatchRow } from "~/components/swatch";
@@ -161,6 +164,8 @@ export default function Builder() {
   const [loadedComboId, setLoadedComboId] = useState<string | null>(() =>
     searchParams.get("combo"),
   );
+  const [avatarModelId, setAvatarModelId] = useState<string>(DEFAULT_AVATAR_MODEL_ID);
+  const [isAvatarPlaying, setIsAvatarPlaying] = useState<boolean>(true);
 
   const update = (patch: Partial<BuilderSelection>) => {
     setSelection((current) => ({ ...current, ...patch }));
@@ -392,14 +397,27 @@ export default function Builder() {
         {/* ————— Figure & score ————— */}
         <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
           <div className="overflow-hidden rounded-3xl border border-hairline bg-card shadow-[0_30px_80px_-50px_rgba(56,40,22,0.6)]">
-            <div className="flex items-center justify-between border-b border-hairline px-5 py-3.5">
-              <p className="label-caps text-brass">Your fit, on you</p>
-              <p className="label-caps text-muted-foreground">
-                {selection.line === "western" ? "Western" : "Festive"}
-              </p>
+            <div className="flex items-center justify-between border-b border-hairline px-4 py-2.5">
+              <div>
+                <p className="label-caps text-brass">Your fit, in 3D</p>
+                <p className="text-[11px] text-muted-foreground">
+                  {selection.line === "western" ? "Western Capsule" : "Festive Ethnic"}
+                </p>
+              </div>
+              <AvatarModelSelect
+                selectedId={avatarModelId}
+                onSelect={setAvatarModelId}
+              />
             </div>
-            <div className="flex items-end justify-center bg-gradient-to-b from-paper-deep/60 to-paper/20 px-6 pt-6">
-              <OutfitFigure config={figure} label={figureLabel} className="h-96 w-auto" />
+            <div className="p-3">
+              <OutfitViewer3D
+                ariaLabel={figureLabel}
+                isPlaying={isAvatarPlaying}
+                onTogglePlay={() => setIsAvatarPlaying((p) => !p)}
+                className="h-[430px] w-full rounded-2xl"
+              >
+                <StandingManAvatar config={figure} isPlaying={isAvatarPlaying} />
+              </OutfitViewer3D>
             </div>
             <div className="space-y-2.5 border-t border-hairline px-5 py-4">
               {[

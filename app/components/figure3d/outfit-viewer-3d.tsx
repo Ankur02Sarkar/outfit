@@ -12,6 +12,7 @@ export interface OutfitViewer3DProps {
   className?: string;
   isPlaying?: boolean;
   onTogglePlay?: () => void;
+  ariaLabel?: string;
   children?: React.ReactNode;
 }
 
@@ -98,6 +99,7 @@ export function OutfitViewer3D({
   className,
   isPlaying = true,
   onTogglePlay,
+  ariaLabel,
   children,
 }: OutfitViewer3DProps) {
   const controlsRef = useRef<OrbitControlsImpl>(null);
@@ -117,6 +119,8 @@ export function OutfitViewer3D({
     <ClientOnly fallback={<ViewerSkeleton className={className} />}>
       {() => (
         <div
+          role="region"
+          aria-label={ariaLabel ?? "3D outfit preview"}
           className={cn(
             "relative h-[420px] w-full overflow-hidden rounded-2xl bg-gradient-to-b from-paper-deep/60 to-paper/20 select-none",
             className,
