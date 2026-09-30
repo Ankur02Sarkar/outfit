@@ -42,13 +42,19 @@ function isGarmentLine(value: string): value is GarmentLine {
   return LINES.some((line) => line.id === value);
 }
 
-function initialSelection(presetId: string | null): BuilderSelection {
+function initialSelection(
+  presetId: string | null,
+  lineParam: string | null,
+): BuilderSelection {
   if (presetId) {
     try {
       return selectionFromCombo(getCombo(presetId));
     } catch {
-      return DEFAULT_SELECTION.western;
+      // fall through to line default
     }
+  }
+  if (lineParam && isGarmentLine(lineParam)) {
+    return DEFAULT_SELECTION[lineParam];
   }
   return DEFAULT_SELECTION.western;
 }
@@ -150,7 +156,7 @@ const STATUS_ICONS: Record<CheckStatus, React.ReactNode> = {
 export default function Builder() {
   const [searchParams] = useSearchParams();
   const [selection, setSelection] = useState<BuilderSelection>(() =>
-    initialSelection(searchParams.get("combo")),
+    initialSelection(searchParams.get("combo"), searchParams.get("line")),
   );
   const [loadedComboId, setLoadedComboId] = useState<string | null>(() =>
     searchParams.get("combo"),

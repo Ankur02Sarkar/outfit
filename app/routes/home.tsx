@@ -34,11 +34,16 @@ const STATS = [
   { value: "5", label: "Layering accents" },
 ] as const;
 
+function comboHref(comboId: string): string {
+  const combo = getCombo(comboId);
+  return `/combos${combo.line === "ethnic" ? "?line=ethnic" : ""}#${combo.id}`;
+}
+
 function FeaturedCombo({ comboId }: { comboId: string }) {
   const combo = getCombo(comboId);
   return (
     <Link
-      to={`/combos#${combo.id}`}
+      to={comboHref(comboId)}
       className="group flex flex-col overflow-hidden rounded-3xl border border-hairline bg-card transition-shadow duration-300 hover:shadow-[0_18px_50px_-30px_rgba(56,40,22,0.45)]"
     >
       <div className="relative flex items-end justify-center border-b border-hairline bg-gradient-to-b from-paper-deep/70 to-paper/30 px-6 pt-6">
@@ -120,7 +125,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
           <div className="relative">
             <div
               aria-hidden
-              className="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-paper-deep/80 via-transparent to-brass/10"
+              className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-paper-deep/80 via-transparent to-brass/10"
             />
             <div className="relative overflow-hidden rounded-3xl border border-hairline bg-card shadow-[0_30px_80px_-50px_rgba(56,40,22,0.6)]">
               <div className="flex items-center justify-between border-b border-hairline px-6 py-4">
@@ -154,7 +159,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
                   ) : null}
                 </div>
                 <Link
-                  to={`/combos#${combo.id}`}
+                  to={comboHref(combo.id)}
                   className="inline-block text-sm font-medium underline-offset-4 hover:text-brass hover:underline"
                 >
                   See the full combination →

@@ -57,7 +57,7 @@ export function optionsForLine(
 export const DEFAULT_SELECTION: Record<GarmentLine, BuilderSelection> = {
   western: {
     line: "western",
-    topId: "top-tee-cream",
+    topId: "top-tee-washed-black",
     bottomId: "bottom-jeans-midwash",
     layerId: "layer-overshirt-cream",
     footwearId: "shoe-sneaker-cream",
@@ -453,7 +453,7 @@ export function evaluateOutfit(
       id: "skin",
       label: "Skin-tone synergy",
       status: "pass",
-      message: `${warmHits.length} piece${warmHits.length > 1 ? "s" : ""} pick up the golden undertone in your skin.`,
+      message: `${warmHits.length} piece${warmHits.length > 1 ? "s" : ""} ${warmHits.length > 1 ? "pick" : "picks"} up the golden undertone in your skin.`,
     });
   } else {
     checks.push({

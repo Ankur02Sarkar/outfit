@@ -116,7 +116,7 @@ function ItemGrid({ items }: { items: readonly WardrobeItem[] }) {
 
   return (
     <div className="space-y-8">
-      <div className="no-scrollbar flex gap-2 overflow-x-auto pb-1">
+      <div className="flex flex-wrap items-center gap-2 pb-1">
         {available.map((c) => (
           <button
             key={c}

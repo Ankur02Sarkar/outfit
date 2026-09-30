@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { useSearchParams } from "react-router";
 
 import { ComboCard } from "~/components/combo-card";
 import { EthnicPhilosophy } from "~/components/ethnic-philosophy";
@@ -56,7 +57,7 @@ function ComboCollection({
 
   return (
     <div className="space-y-8">
-      <div className="no-scrollbar flex items-center gap-2 overflow-x-auto pb-1">
+      <div className="flex flex-wrap items-center gap-2">
         <button
           type="button"
           onClick={() => setOccasion("all")}
@@ -106,7 +107,11 @@ function ComboCollection({
 }
 
 export default function Combos() {
-  const [line, setLine] = useState<GarmentLine>("western");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [line, setLine] = useState<GarmentLine>(() => {
+    const param = searchParams.get("line");
+    return param && isGarmentLine(param) ? param : "western";
+  });
 
   return (
     <div>
@@ -120,7 +125,17 @@ export default function Combos() {
         <Tabs
           value={line}
           onValueChange={(value) => {
-            if (isGarmentLine(value)) setLine(value);
+            if (isGarmentLine(value)) {
+              setLine(value);
+              setSearchParams(
+                (prev) => {
+                  const next = new URLSearchParams(prev);
+                  next.set("line", value);
+                  return next;
+                },
+                { replace: true, preventScrollReset: true },
+              );
+            }
           }}
           className="gap-10"
         >

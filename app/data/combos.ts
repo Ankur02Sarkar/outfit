@@ -463,10 +463,9 @@ export const ETHNIC_COMBOS = [
     },
     bottom: {
       label: "Cream silk-cotton churidar",
-      detail: "Or relaxed sand linen trousers",
       itemId: "ebottom-churidar-cream",
       colorId: "cream",
-      alternate: "Sand linen trousers",
+      alternate: "Relaxed sand linen trousers",
     },
     layer: {
       label: "Neutral tussar stole, one shoulder",

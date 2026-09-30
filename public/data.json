@@ -1,0 +1,436 @@
+{
+    "profile": {
+        "target_user": "Ankur",
+        "skin_tone": "Medium Brown / Wheatish Indian",
+        "skin_undertone": "Warm Golden / Olive / Caramel",
+        "style_aesthetic": "Old Money / Quiet Luxury / Royal Heritage",
+        "fabric_philosophy": {
+            "approved_fabrics": [
+                "100% Long-Staple Cotton (220+ GSM Heavyweight)",
+                "100% Pure Flax Linen (French or Irish Linen)",
+                "Handloom Khadi (Silk & Cotton)",
+                "Raw Matka & Tussar Silk (Matte, textured slubs)",
+                "Chanderi Silk-Cotton",
+                "Pure Pashmina / Cashmere",
+                "Raw Denim (100% Cotton)",
+                "Full-Grain Leather & Calf Suede"
+            ],
+            "strictly_avoid": [
+                "Polyester & Polyester Blends",
+                "Nylon & Acrylic knitwear",
+                "Shiny synthetic art-silk",
+                "Plastic sequins, glitter, & glue-stuck stones",
+                "Spray-on skinny fits & low-rise pants",
+                "Loud visible designer logos & monograms"
+            ]
+        }
+    },
+    "color_palette_system": {
+        "redundancy_resolution_guide": {
+            "cream_off_white_ecru_beige": {
+                "verdict": "Consolidated into 'Off-White / Cream / Ecru'",
+                "why": "Stark paper-white creates a harsh, chalky contrast against wheatish/brown skin. Warm off-white/cream illuminates the skin's natural golden undertones."
+            },
+            "brown_coffee_chocolate_tobacco_cognac": {
+                "verdict": "Consolidated into 'Rich Chocolate / Coffee Brown'",
+                "why": "Different creators use 'coffee', 'chocolate', and 'tobacco' interchangeably. It is a single foundational earth tone that adds deep luxury when paired with cream, sage, or navy."
+            },
+            "olive_hunter_sage_green": {
+                "verdict": "Consolidated into 'Olive & Sage Green'",
+                "why": "Sage is the soft daytime muted variant; Olive/Hunter is the deep evening/outerwear variant. Both sit adjacent to warm skin on the color wheel, creating effortless organic elegance."
+            },
+            "navy_blue_dark_indigo": {
+                "verdict": "Consolidated into 'Midnight Navy & Dark Indigo'",
+                "why": "Replaces stark black. Looks infinitely more expensive, aristocratic, and forgiving in natural sunlight."
+            },
+            "charcoal_grey_washed_black": {
+                "verdict": "Consolidated into 'Charcoal Grey & Washed Black'",
+                "why": "Softens the silhouette compared to jet-black and pairs seamlessly with pastel, earth, and jewel tones."
+            }
+        },
+        "core_four_foundations": [
+            {
+                "color": "Off-White / Cream / Ecru",
+                "role": "Light Base & Soft Contrast",
+                "best_for": [
+                    "T-shirts",
+                    "Linen Overshirts",
+                    "Chinos",
+                    "Daytime Kurtas",
+                    "Sneakers"
+                ]
+            },
+            {
+                "color": "Olive / Forest Green",
+                "role": "Earthy Anchor",
+                "best_for": [
+                    "Knit Polos",
+                    "Canvas Overshirts",
+                    "Cargos",
+                    "Chino Shorts",
+                    "Silk Bandi Vests"
+                ]
+            },
+            {
+                "color": "Midnight Navy / Dark Indigo",
+                "role": "Tailored Authority & Evening Base",
+                "best_for": [
+                    "Denim Jeans",
+                    "T-shirts",
+                    "Bandhgalas",
+                    "Blazers",
+                    "Evening Kurtas"
+                ]
+            },
+            {
+                "color": "Charcoal Grey / Washed Black",
+                "role": "Modern City Grounding",
+                "best_for": [
+                    "Trousers",
+                    "Denim",
+                    "Evening T-shirts",
+                    "Derby Shoes"
+                ]
+            }
+        ],
+        "layering_power_accents": [
+            {
+                "color": "Chocolate / Coffee Brown",
+                "effect": "Rich, grounded warmth that makes cream and green look bespoke."
+            },
+            {
+                "color": "Burnt Orange / Terracotta",
+                "effect": "Complementary warmth against blue denim; brings instant festive/artistic flair."
+            },
+            {
+                "color": "Burgundy / Oxblood",
+                "effect": "Aristocratic depth that enlivens grey and dusty pink bases."
+            },
+            {
+                "color": "Powder / Sky Blue",
+                "effect": "Softens dark trousers and denim; looks fresh under sunlight."
+            },
+            {
+                "color": "Sage Green / Pistachio",
+                "effect": "Subtle, understated daytime luxury for kurtas, bandis, and knit tees."
+            }
+        ]
+    },
+    "user_raw_inputs_reference": {
+        "section_A_wardrobe_items": {
+            "t_shirts": "2 plain t-shirts (black + white)",
+            "shorts": "4 solid shorts (white, light blue, olive, brown)",
+            "polo_t_shirts": "2 polo t-shirts (olive, brown)",
+            "jeans": "4 jeans (light blue, dark blue, black, charcoal gray)",
+            "cargos": "2 cargos (beige, olive)",
+            "formal_pants": "2 formal pants (beige, black)",
+            "shoes": "4 shoes (white sneaker, chunky shoes, loafer, boots)",
+            "watches": "2 watches (minimal, analog)"
+        },
+        "section_B_influencer_colors": [
+            "Olive Green",
+            "Navy Blue",
+            "Charcoal Gray",
+            "Off-White"
+        ],
+        "section_C_high_fashion_notes": [
+            "Mid-wash blue jeans with a navy t-shirt is already easy, but throw on a cream overshirt and suddenly the whole outfit looks ridiculously clean.",
+            "Ecru jeans with a sage green t-shirt is already fresh, but add some chocolate brown and now you look expensive as fuck.",
+            "Grey jeans with a dusty pink t-shirt is already different, but throw in some burgundy and suddenly the whole outfit has way more personality.",
+            "Dark indigo jeans with a powder blue t-shirt is already sharp, but bring in some burnt orange, and now you look like you actually understand color theory."
+        ],
+        "section_D_layered_color_combos": [
+            "Light blue overshirt + white inner t-shirt + black pant",
+            "Hunter overshirt + white inner t-shirt + cream pant",
+            "Cream overshirt + black inner t-shirt + coffee pant"
+        ]
+    },
+    "master_capsule_wardrobe_checklist": {
+        "tops": [
+            {
+                "item": "Plain T-Shirt (Off-White / Cream)",
+                "fabric": "100% Heavyweight Cotton (220-250 GSM)",
+                "fit": "Relaxed Tailored (Drop shoulder or classic, snug collar ribbing)"
+            },
+            {
+                "item": "Plain T-Shirt (Washed Black / Charcoal)",
+                "fabric": "100% Heavyweight Cotton (Garment-dyed)",
+                "fit": "Relaxed Tailored"
+            },
+            {
+                "item": "Knit Polo (Olive Green)",
+                "fabric": "100% Cotton or Cotton-Linen Knit",
+                "fit": "Johnny Collar / Open collar, ribbed cuffs and hem"
+            },
+            {
+                "item": "Knit Polo (Coffee / Chocolate Brown)",
+                "fabric": "100% Cotton or Cotton-Linen Knit",
+                "fit": "Johnny Collar / Buttonless placket"
+            }
+        ],
+        "overshirts_and_layers": [
+            {
+                "item": "Relaxed Overshirt (Cream / Ecru)",
+                "fabric": "100% French Flax Linen or Heavy Brushed Cotton",
+                "role": "The ultimate layer that turns basic blue, black, or brown outfits into Old Money"
+            },
+            {
+                "item": "Button-Down Overshirt (Light Blue)",
+                "fabric": "100% Chambray or Pure Linen",
+                "role": "Soft city layer over white tees and dark trousers"
+            },
+            {
+                "item": "Chore / Workwear Overshirt (Hunter / Olive Green)",
+                "fabric": "100% Cotton Duck Canvas or Heavyweight Linen",
+                "role": "Safari leisure layer over cream, beige, or white trousers"
+            }
+        ],
+        "bottoms": [
+            {
+                "item": "Mid-Wash Blue Jeans",
+                "fabric": "100% Cotton Denim (12-14 oz)",
+                "fit": "Straight leg, medium/high rise (no distressing)"
+            },
+            {
+                "item": "Dark Indigo Raw Denim Jeans",
+                "fabric": "100% Cotton Selvedge Denim",
+                "fit": "Clean tailored straight leg"
+            },
+            {
+                "item": "Charcoal Grey / Washed Black Jeans",
+                "fabric": "100% Cotton Denim",
+                "fit": "Straight taper"
+            },
+            {
+                "item": "Beige / Sand Trousers",
+                "fabric": "100% Cotton-Linen Chino or Wool-Linen blend",
+                "fit": "Mid-to-high rise, single pleat, slight taper"
+            },
+            {
+                "item": "Black / Charcoal Pleated Formal Pants",
+                "fabric": "100% Tropical Wool or Heavy Cotton-Twill",
+                "fit": "High-rise, double reverse pleats, 0-break or slight break"
+            },
+            {
+                "item": "Beige Cargos",
+                "fabric": "100% Cotton Ripstop or Heavy Twill",
+                "fit": "Relaxed tailored cut with flat, streamlined pockets (no bulging tactical pouches)"
+            },
+            {
+                "item": "Olive Green Cargos",
+                "fabric": "100% Cotton Twill",
+                "fit": "Clean-pocket tailored cut"
+            },
+            {
+                "item": "Tailored Shorts (Off-White, Olive Green, Coffee Brown)",
+                "fabric": "100% Cotton Chino or 100% Pure Linen",
+                "fit": "6 to 7 inch inseam (strictly resting 2 inches above the knee)"
+            }
+        ],
+        "footwear": [
+            {
+                "name": "Clean Minimalist Leather Sneaker",
+                "color": "Off-White / Cream sole",
+                "material": "Full-grain calfskin leather",
+                "purpose": "Casual everyday, travel, weekend brunches"
+            },
+            {
+                "name": "Suede Loafers (Penny or Belgian)",
+                "color": "Dark Chocolate Brown or Snuff Suede",
+                "material": "Calf suede with leather sole",
+                "purpose": "Smart casual, date nights, Old Money summer aesthetic"
+            },
+            {
+                "name": "Chunky Derby Shoes",
+                "color": "Black or Deep Espresso Brown",
+                "material": "Polished calfskin with commando or lug sole",
+                "purpose": "City minimalist outfits, rainy days, edgy smart styling"
+            },
+            {
+                "name": "Chelsea Boots",
+                "color": "Dark Brown or Tobacco Tan",
+                "material": "Suede or burnished calf leather",
+                "purpose": "Evening drinks, dinners, cold weather layering"
+            }
+        ],
+        "accessories": [
+            {
+                "type": "Vintage Dress Watch",
+                "specs": "Yellow gold or brass rectangular/cushion case (Cartier Tank / JLC Reverso style) with dark brown leather strap"
+            },
+            {
+                "type": "Minimal Everyday Watch",
+                "specs": "Brushed steel or silver case, clean white/black dial, minimal indices"
+            },
+            {
+                "type": "Woven Leather Belt",
+                "specs": "Dark brown braided leather with solid brass buckle"
+            },
+            {
+                "type": "Eyewear",
+                "specs": "Tortoiseshell acetate round or square sunglasses with polarized brown/green lenses"
+            }
+        ]
+    },
+    "western_outfit_combinations": [
+        {
+            "id": "W-01",
+            "name": "The Clean Riviera",
+            "vibe_occasion": "Casual Everyday / Weekend Stroll / Coffee Run",
+            "base_top": "Navy Blue Plain T-Shirt (100% Cotton)",
+            "base_bottom": "Mid-Wash Blue Jeans (Straight Cut)",
+            "layer": "Cream / Ecru Linen Overshirt (Worn open, sleeves rolled once)",
+            "footwear": "Clean Off-White Leather Court Sneakers",
+            "watch_accessories": "Minimal everyday steel analog watch",
+            "why_it_works_for_brown_skin": "Blue-on-blue denim and navy can look monotone on its own; throwing a warm cream linen overshirt on top creates instant high-contrast brightness that looks ridiculously clean against wheatish skin."
+        },
+        {
+            "id": "W-02",
+            "name": "The Expensive Earth",
+            "vibe_occasion": "Date Night / Smart Casual Dinner / Art Gallery",
+            "base_top": "Sage Green T-Shirt (or Olive Knit Polo)",
+            "base_bottom": "Ecru / Off-White Jeans or Sand Chinos",
+            "layer": "Chocolate Brown Suede Jacket or Heavy Cotton Overshirt",
+            "footwear": "Dark Chocolate Brown Suede Loafers (No-show socks)",
+            "watch_accessories": "Vintage gold case watch with brown leather strap",
+            "why_it_works_for_brown_skin": "Sage green + ecru + chocolate brown is the single most luxurious earthy triad on brown skin. The tones mirror golden skin undertones, creating a sun-kissed, high-status finish."
+        },
+        {
+            "id": "W-03",
+            "name": "The City Minimalist",
+            "vibe_occasion": "Day-to-Night Transition / Casual Friday / Evening Drinks",
+            "base_top": "Plain White / Off-White T-Shirt",
+            "base_bottom": "Black Formal Pleated Pants or Charcoal Trousers",
+            "layer": "Light Blue Linen or Chambray Overshirt (Unbuttoned)",
+            "footwear": "Clean White Sneakers or Chunky Black Derby Shoes",
+            "watch_accessories": "Minimal clean analog watch",
+            "why_it_works_for_brown_skin": "Light blue softens the harsh starkness of black and white, making the contrast flattering and easy on warm skin."
+        },
+        {
+            "id": "W-04",
+            "name": "The Safari Quiet Luxury",
+            "vibe_occasion": "Weekend Brunch / Outdoor Day Travel / Resort",
+            "base_top": "Plain White T-Shirt",
+            "base_bottom": "Cream Chinos or Beige Tailored Cargos",
+            "layer": "Hunter / Olive Green Canvas or Linen Overshirt",
+            "footwear": "Dark Brown Suede Loafers or Off-White Sneakers",
+            "watch_accessories": "Dark brown braided leather belt, gold watch on brown strap",
+            "why_it_works_for_brown_skin": "Olive green draped over an all-cream/beige base produces an effortless Old Money leisure look that flatters wheatish skin naturally."
+        },
+        {
+            "id": "W-05",
+            "name": "The Espresso Evening",
+            "vibe_occasion": "Cocktail Bar / Speakeasy / Autumn Dinner",
+            "base_top": "Washed Black Plain T-Shirt",
+            "base_bottom": "Coffee / Dark Brown Tailored Trousers",
+            "layer": "Cream / Ecru Heavy Cotton or Linen Overshirt",
+            "footwear": "Dark Brown Chelsea Boots or Chocolate Suede Loafers",
+            "watch_accessories": "Vintage gold analog watch",
+            "why_it_works_for_brown_skin": "Cream layered over a black-and-coffee base creates deep visual dimension, preventing dark clothing from washing out medium skin tones."
+        },
+        {
+            "id": "W-06",
+            "name": "The Color Theory Master (Complementary Pop)",
+            "vibe_occasion": "Creative Meetings / Casual Socials / Statement Styling",
+            "base_top": "Powder Blue T-Shirt",
+            "base_bottom": "Dark Indigo Raw Denim Jeans",
+            "layer": "Burnt Orange / Terracotta Lightweight Overshirt (or knit over shoulders)",
+            "footwear": "Off-White Sneakers or Tan Suede Boots",
+            "watch_accessories": "Tan leather strap watch, tortoiseshell sunglasses",
+            "why_it_works_for_brown_skin": "Blue and orange are direct complements on the color wheel. Burnt orange warms up the powder blue, signaling deliberate, sophisticated color mastery."
+        },
+        {
+            "id": "W-07",
+            "name": "The Burgundy & Dusty Pink Nuance",
+            "vibe_occasion": "Evening Dinner / Casual Creative Event",
+            "base_top": "Dusty Pink / Muted Rose T-Shirt",
+            "base_bottom": "Charcoal Grey Jeans (Straight Leg)",
+            "layer": "Burgundy / Oxblood Overshirt or Cardigan",
+            "footwear": "Chunky Derby Shoes or Dark Espresso Loafers",
+            "watch_accessories": "Minimal steel watch, black/dark brown belt",
+            "why_it_works_for_brown_skin": "Muted dusty pink softens grey denim, while rich burgundy provides regal framing that elevates medium brown skin beautifully."
+        },
+        {
+            "id": "W-08",
+            "name": "Country Club Summer Shorts Formula",
+            "vibe_occasion": "Warm Summer Days / Poolside Club / Casual Afternoon",
+            "base_top": "Olive Green Knit Polo (Johnny Collar)",
+            "base_bottom": "Off-White Chino Shorts (6-7 inch inseam)",
+            "layer": "None (or Cream Linen Overshirt over a White Plain Tee)",
+            "footwear": "Dark Chocolate Brown Suede Loafers",
+            "watch_accessories": "Vintage gold watch with brown leather strap",
+            "why_it_works_for_brown_skin": "Olive green against bare arms and off-white shorts creates a high-contrast sporting pedigree without any loud logos."
+        }
+    ],
+    "navaratri_and_durga_puja_ethnic_outfits": {
+        "festive_curation_philosophy": {
+            "theme": "Old Money Royal Heritage (Awadhi Nawab & Bengali Zamindar Aesthetic)",
+            "climate_consideration": "Garba/Dandiya dancing and pandal hopping cause intense heat and sweating. 100% breathable natural fabrics (Linen, Khadi, Raw Silk, Cotton-Silk) are mandatory. Strictly zero polyester or cheap synthetic shiny brocades.",
+            "pandal_convenience": "Slip-on footwear (Peshawari sandals, juttis, or loafers) allows effortless entry and exit at temple pandals without untying laces."
+        },
+        "outfit_combos": [
+            {
+                "id": "PUJA-01",
+                "day_occasion": "Saptami Morning / Durga Puja Pushpanjali & Day Pandal Hopping",
+                "vibe": "Sacred, serene, high-aristocracy daytime elegance",
+                "kurta": "Handwoven Off-White / Ivory 100% Linen Kurta (Mid-thigh length, concealed front placket)",
+                "layer_bandi": "Textured Sage Green or Soft Pistachio Raw Silk / Khadi Nehru Bandi vest",
+                "bottoms": "Tailored Off-White Aligarhi Pajama or Straight Linen-Cotton Trousers (0-break hem)",
+                "footwear": "Handcrafted Vegetable-Tanned Tan / Cognac Leather Peshawari Sandals",
+                "accessories": "Vintage gold analog watch on dark brown leather strap, subtle hammered brass buttons",
+                "why_it_suits_brown_skin": "Ivory paired with sage green provides soft, luminous contrast under morning sunlight, highlighting golden undertones without the chalkiness of stark bleach white."
+            },
+            {
+                "id": "PUJA-02",
+                "day_occasion": "Maha Ashtami Evening / Sandhi Puja & High-Energy Garba Night",
+                "vibe": "Royal Black-Tie Ethnic — Commanding, sweat-resistant, maximum mobility",
+                "kurta": "Deep Imperial Midnight Navy Cotton-Silk or Fine Linen Kurta",
+                "layer_bandi": "Textured Warm Ochre / Mustard or Antique Gold Tussar Silk Nehru Bandi",
+                "bottoms": "Matching Midnight Navy Tailored Trousers (or Off-White Aligarhi Pajama for classic contrast)",
+                "footwear": "Dark Chocolate Brown Matte Leather Juttis or Suede Horsebit Loafers",
+                "accessories": "Muted antique gold silk pocket square, gold case dress watch",
+                "why_it_suits_brown_skin": "Midnight navy hides any perspiration from Garba dancing, while the warm ochre/gold bandi vest shines under festive fairy lights, giving an unmistakable princely silhouette."
+            },
+            {
+                "id": "PUJA-03",
+                "day_occasion": "Maha Navami Night / Grand Pandal Hopping & Festive Dinner Gala",
+                "vibe": "The Zamindar Spice Palette — Opulent, festive warmth, heirloom nobility",
+                "kurta": "Raw Matka or Tussar Silk Kurta in Warm Terracotta, Burnt Orange, or Rich Rust",
+                "layer_bandi": "Solid Neutral Tussar Silk Stole or Cashmere Shawl casually draped over one shoulder",
+                "bottoms": "Tailored Cream Silk-Cotton Churidar or Relaxed Sand Linen Trousers",
+                "footwear": "Burnished Dark Brown Wholecut Leather Juttis / Mojris (Matte finish, zero plastic glitter)",
+                "accessories": "Gold signet ring with green stone (emerald), vintage brown leather strap watch",
+                "why_it_suits_brown_skin": "Terracotta and rust share the same warm undertones as medium brown skin, creating a rich sun-baked radiance that commands attention without screaming for it."
+            },
+            {
+                "id": "PUJA-04",
+                "day_occasion": "All-Day Pandal Hopping Marathon (5-10 km Walking)",
+                "vibe": "Modern Indo-Western Quiet Luxury — Breathable, athletic ease, cosmopolitan taste",
+                "kurta": "Mandarin-Collar Crisp Ecru 100% Linen Grandad Shirt (or short mid-thigh kurta with rolled sleeves)",
+                "layer_bandi": "Optional Evening Layer: Unlined Oatmeal or Olive Textured Khadi Bandi",
+                "bottoms": "High-Waisted Olive Green Gurkha Trousers or Tailored Beige Linen-Cotton Cargos",
+                "footwear": "Dark Brown Soft Suede Belgian Loafers or Handcrafted Woven Leather Kolhapuri Chappals",
+                "accessories": "Tortoiseshell acetate sunglasses, minimal everyday analog watch",
+                "why_it_suits_brown_skin": "Fuses high-waisted British military tailoring with an Indian mandarin cut. Pure linen breathes in crowded pandals while keeping you looking effortlessly tailored."
+            },
+            {
+                "id": "PUJA-05",
+                "day_occasion": "Vijayadashami / Dussehra / Sindoor Khela & Royal Finale",
+                "vibe": "The Sunlit Celebration of Victory — Warm, dignified, heirloom finish",
+                "kurta": "Butter-Cream / Warm Ivory Chanderi Silk-Cotton Kurta (Subtle matte self-weave)",
+                "layer_bandi": "Rich Chocolate Brown or Deep Coffee Raw Tussar Silk Bandi vest",
+                "bottoms": "Tailored Off-White Aligarhi Pajama",
+                "footwear": "Handcrafted Veg-Tan Cognac Peshawari Sandals",
+                "accessories": "Vintage gold analog watch, natural sandalwood (chandan) or vetiver (khus) fragrance",
+                "why_it_suits_brown_skin": "The chocolate brown bandi grounds the luminous butter-cream kurta, creating the quintessential 'heir to an estate' aesthetic for the festival's concluding day."
+            }
+        ]
+    },
+    "practical_old_money_rules": {
+        "fabric_rule": "Never wear polyester or synthetic art-silks. Natural cotton, linen, khadi, and raw silk have an organic matte texture and natural slubs that synthetic fabrics can never replicate.",
+        "collar_rule": "The band/mandarin collar must rest cleanly around the neck without gaping open or choking.",
+        "trouser_break_rule": "Trousers, chinos, and pajamas must have a 0-break or very slight break. Bottoms should never puddle or drag on the ground.",
+        "leather_match_rule": "Your watch strap, belt, and footwear must match in warmth (e.g. all rich dark brown, or all warm cognac). Never mix black leather shoes with a brown watch strap.",
+        "undergarment_law": "Always wear a seamless ribbed 100% breathable cotton sleeveless undershirt beneath light-colored linen shirts and kurtas to prevent sweat marks and preserve drape."
+    }
+}

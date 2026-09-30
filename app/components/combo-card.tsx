@@ -52,7 +52,7 @@ export function ComboCard({ combo, className }: ComboCardProps) {
         <OutfitFigure
           config={combo.figure}
           label={`${combo.name} — outfit illustration`}
-          className="relative h-72 w-auto transition-transform duration-500 group-hover:-translate-y-1"
+          className="relative h-80 w-auto transition-transform duration-500 group-hover:-translate-y-1"
         />
       </div>
 
@@ -91,7 +91,10 @@ export function ComboCard({ combo, className }: ComboCardProps) {
             Tune this in the builder →
           </Link>
           <span className="text-xs text-muted-foreground">
-            {combo.id.toLowerCase().replace("-", " ")}
+            {[combo.top, combo.bottom, combo.layer, combo.footwear, combo.accessories]
+              .filter(Boolean)
+              .length}{" "}
+            pieces
           </span>
         </div>
       </div>
